@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "vmanhunt",
+	"version": "${version}",
+	"name": "V's Manhunt",
+	"description": "Times Minecraft manhunt runs, records split times for key objectives and scores them.",
+	"authors": [
+		"dvelop"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/vmanhunt/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dvelop.vmanhunt.VSManhunt"
+		],
+		"client": [
+			"dvelop.vmanhunt.client.VSManhuntClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
